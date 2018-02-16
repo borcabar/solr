@@ -1,0 +1,20 @@
+##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#   Analysis    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+From the presentation of Solr, you choose a collection, later you put analysis,
+
+# Define the king of filters applied to the search words
+Analyse Fieldname / FieldType:
+
+Some fiels:
+text_ws: only takes away word stop
+text_general: quiet powerfull
+text_en: proper for english, use stop words... (comment, look for the steem of the word)
+
+
+##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+##+++++++++++++++++++++++         Practica           +++++++++++++++++++++++++
+##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+solrctl instancedir --generate $HOME/electric_rates_bcabrera
